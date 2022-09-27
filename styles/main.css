@@ -1,0 +1,62 @@
+.main {
+  width: 600px;
+  height: 500px;
+  
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newpost {
+  width: 450px;
+  background-color: #242526;;
+  padding: 0px 10px 0px 10px;
+  border-radius: 7px;
+}
+
+.newpost-profile{
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.newpost-text-container {
+  background-color: rgb(58,59,60);
+  color:rgb(174, 178, 182);
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 12px;
+  width: 100%;
+}
+
+.newpost-text-container input {
+  background-color: rgba(0, 0, 0,0);
+  border: none;
+  outline: none;
+  font-size: medium;
+  color:rgb(205, 208, 211);
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.newpost-text-container input::placeholder {
+  color:rgb(174, 178, 182);
+}
+
+.newpost-button {
+  color:rgb(174, 178, 182);
+  display: flex; 
+  padding: 10px; 
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.newpost-button:hover {
+  background-color: rgb(58,59,60);
+}

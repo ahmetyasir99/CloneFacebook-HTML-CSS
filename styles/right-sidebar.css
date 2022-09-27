@@ -1,0 +1,61 @@
+.right-sidebar {
+  position: fixed;
+  width: 300px;
+  top: 56px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #18191a;
+  color: #e4e6eb;
+  padding: 10px;
+  overflow-y:hidden;
+  transition: overflow-y 0.5s;
+}
+.right-sidebar:hover{
+  overflow-y: scroll;
+ 
+}
+
+.icon-container {
+  cursor: pointer;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-right: 7px;
+}
+
+.right-sidebar img {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.online-friend {
+  width: 6px;
+  height: 6px;
+  border-radius: 5px;
+  background-color: rgb(5, 151, 5);
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+}
+
+/* .new-message-container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  background-color: rgb(58,59,60);
+}
+
+.new-message-container img {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+} */

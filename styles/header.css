@@ -1,0 +1,101 @@
+.header {
+  position: fixed;
+  height: 56px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #242526;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-and-search-container {
+  display: flex; 
+  align-items:center;
+  width: 350px; 
+  justify-content: space-evenly;
+}
+
+.header .facebook-icon {
+  width: 45px;
+}
+
+.search-container {
+  background-color: rgb(58,59,60);
+  color:rgb(174, 178, 182);
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 12px;
+}
+
+.search-container input {
+  background-color: rgba(0, 0, 0,0);
+  border: none;
+  outline: none;
+  font-size: medium;
+  color:rgb(205, 208, 211);
+  padding: 0px 10px;
+}
+
+.search-container input::placeholder {
+  color:rgb(174, 178, 182);
+}
+
+.header-middle-container {
+  color:rgb(174, 178, 182);
+  display: flex;
+  width: 500px;
+  align-items: center;
+}
+
+.header-middle-container .icon-container {
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 12px;
+  transition: background-color 0.15s;
+  min-width: 70px;
+}
+.header-middle-container .icon-container:hover {
+  background-color: rgb(58,59,60);
+}
+
+.header-right-container {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color:rgb(174, 178, 182);
+  flex-shrink: 0;
+}
+
+.header-right-container .icon-container {
+  cursor: pointer;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgb(58,59,60);
+}
+
+.header-right-container .icon-container:hover {
+  background-color: rgb(91, 91, 92);
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.profile-pic:hover {
+  opacity: 0.9;
+}

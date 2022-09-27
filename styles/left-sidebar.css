@@ -1,0 +1,94 @@
+.left-sidebar {
+  position: fixed;
+  width:300px;
+  top: 56px;
+  left:0px;
+  bottom: 0px;
+  background-color: #18191a;
+  color: #e4e6eb;
+  padding: 10px;
+  overflow-y:hidden;
+  transition: overflow-y 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon-container {
+  cursor: pointer;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-right: 7px;
+  position: relative;
+}
+
+.left-sidebar-tabs {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.15s;
+  padding: 5px;
+}
+
+.left-sidebar-tabs:hover {
+  background-color: rgb(58,59,60);
+}
+
+.left-sidebar-section1 {
+  border-bottom: 1px solid rgb(58,59,60);
+  padding-bottom: 5px;
+}
+
+.left-sidebar-section2 {
+  margin-top: 15px;
+  
+}
+
+.left-sidebar-section2 img {
+  border-radius: 6px;
+}
+
+.left-sidebar-section3 span {
+  font-size: small;
+  cursor: pointer;
+}
+
+.left-sidebar-section3 span:hover {
+  text-decoration: underline;
+}
+
+.left-sidebar-section3 .left-sidebar-tabs {
+  background-color: transparent;
+  cursor:default;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #242526;;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(174, 178, 182);
+  border-radius: 10px;
+}
+
+.left-sidebar:hover{
+  overflow-y: scroll;
+ 
+}
+
