@@ -9,10 +9,13 @@
 }
 
 .newpost {
-  width: 450px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 600px;
   background-color: #242526;;
   padding: 0px 10px 0px 10px;
   border-radius: 7px;
+  color:rgb(174, 178, 182);
 }
 
 .newpost-profile{
@@ -55,8 +58,36 @@
   padding: 10px; 
   border-radius: 7px;
   cursor: pointer;
+  align-items: center;
 }
 
 .newpost-button:hover {
   background-color: rgb(58,59,60);
+}
+
+.more-button-container {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: transparent;
+  transition: background-color 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.more-button-container:hover {
+  background-color: rgb(58,59,60);
+}
+
+.reaction-icons {
+  width: 18px;
+  height: 18px;
+  margin-right:-3px ;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
 }
