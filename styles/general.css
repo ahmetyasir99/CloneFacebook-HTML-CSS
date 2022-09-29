@@ -12,6 +12,9 @@ body {
   .left-sidebar{
     display: none !important;
   }
+  .search-container input{
+    display: none;
+  }
 }
 
 @media (max-width:1200px) {
